@@ -1,0 +1,65 @@
+.popular-catory{
+    margin-top: 250px;
+    min-height: 475px;
+    padding-bottom: 100px;
+    .main-title{
+        font-family: 'MonumentExtended';
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0.04em;
+        text-align: left;
+        color: var(--white);
+        margin-bottom: 72px;
+
+    }
+}
+.main-group{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.group-catory{
+    display: flex;
+    flex-direction: column;
+    height: 367px;
+    width: 245px;
+    left: 0px;  
+    top: 0px;
+    border-radius: 50px;
+    background: rgba(44, 45, 49, 1);
+    justify-content: center;
+    align-items: center;
+}
+.img-catory{
+    height: 225px;
+    width: 225px;
+    border-radius: 50px;
+    margin-top: -35px;
+    margin-bottom: 50px;
+}
+.title-catory{
+    font-family: var(font-family);
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+}
+.btn-nextright{
+    left: -30px;
+    top: 50%;
+    font-size: 20px;
+    background-color: #2C2D31;
+    color: var(--white);
+}
+.btn-nextleft{
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    font-size: 20px;
+    background-color: #2C2D31;
+    color: var(--white);
+}

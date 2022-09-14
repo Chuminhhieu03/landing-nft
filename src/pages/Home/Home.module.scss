@@ -1,0 +1,102 @@
+.wrapper{
+    background-color: var(--background-color);
+}
+.inner{
+    margin: 0 150px;
+}
+.hero-section{
+    height: 779px;
+    width: 1610px;
+    display: flex;
+    padding-top: 265px;
+}
+.heading-text{
+    width: 704px;
+    height: 317px;
+    margin-bottom: 64px;
+    .heading-title{
+        font-family: 'MonumentExtended';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43px;
+        letter-spacing: 0.04em;
+        color: var(--white); 
+    }
+    .heading-concept{
+        font-family: 'MonumentExtended';
+        color: var(--white); 
+        font-style: normal;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 86px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;  
+    }
+}
+.creator{
+    display: flex;
+
+    .images-creators{
+        margin-left: 54px;
+        margin-right: 31px;
+    }
+}
+.funfact{
+    height: 64px;
+    width: 508px;
+    display: flex;
+    .group-funfact{
+        width: 83px;
+        height: 64px;
+        margin-right: 116px;
+        .amount{
+            font-family: 'MonumentExtended';
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 36px;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: (var(--white))
+        }
+        .title-amount{
+            font-family: var(font-family);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: (var(--white))
+        }
+    }
+}
+
+.logo-home{
+    position: absolute;
+    width: 774.62px;
+    height: 758px;
+    left: 882.38px;
+    top: 931px;
+}
+.hero-img{
+    height: 758px;
+    width: 775px;
+    margin-left: 132px;
+    &::after{
+        height: 758px;
+        width: 775px;
+        top: 0px;
+        left: 50px;
+        background-color: linear-gradient(180deg, #4D4458 0%, #59DCDC 100%);
+        filter: blur(100px);
+        border-radius: 180px;
+        content: "";
+    }
+}
+
+
+
+    // background-image: url('./bgimg.png')
+
+
+

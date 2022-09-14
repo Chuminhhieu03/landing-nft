@@ -1,0 +1,95 @@
+.wrapper{
+    background-color: var(--background-color);
+}
+.inner{
+    padding: 150px 0px;
+    margin: 0 150px;
+}
+.main-title{
+    margin-bottom: 70px;
+}
+.title{
+    font-family: 'MonumentExtended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+.tranding-group{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.btn-nextright{
+    left: -35px;
+    top: 50%;
+}
+.tranding-item{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    width: 383px;
+    border-radius: 10px;
+}
+.avatar{
+    height: 350px;
+}
+.name-price{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1D1E22;
+    padding: 13px;
+    border-radius: 0 0 30px 30px;
+}
+.name-display{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    color: var(--white);
+}
+.name{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    margin-bottom: 10px;
+}
+.top{
+    font-size: 16px;
+}
+.price-display{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 16px 24px;
+    border-radius: 20px;
+    background-color: #2C2D31;
+}
+.price,
+.bid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bid-title,
+.price-title{
+    color: rgba(153, 153, 153, 1);
+
+}
+.price-cost,
+.bid-cost
+{
+    color: var(--white);
+}
+
+.btn-nextleft{
+    right: -35px;
+    top: 50%;
+}
+
+

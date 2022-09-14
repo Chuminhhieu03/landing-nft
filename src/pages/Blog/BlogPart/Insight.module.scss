@@ -1,0 +1,134 @@
+.wrapper{
+    background-color: #1D1E22;
+}
+.inner{
+    padding : 120px 0;
+    margin: 0 150px;
+}
+.main-title{
+    margin-bottom: 50px;
+}
+.title{
+    font-family: 'MonumentExtended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+.insight-group{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.insight-item{
+    width: 500px;
+    height: 588px;
+    object-fit: cover
+}
+.avatar-display{
+    margin-bottom: 30px;
+}
+.info-display{
+    display: flex;
+    margin-bottom: 20px;
+}
+.topic{
+    padding: 4px 12px;
+    width: max-content;
+    height: 28px;
+    background: #F3F5F6;
+    box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+    border-radius: 36px;
+    color: #0A142F;
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 50px;
+}
+.day{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #DFE5F5;
+}
+.title-info{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    color: var(--white);
+}
+.infomation{
+    display: flex;
+    height: 56px;
+    width: 160px;
+    border-radius: 30px;
+    padding: 16px 24px;
+    border: 1px solid var(--white);
+    margin-top: 30px;
+}
+.read{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--white);
+    margin-right: 10px;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    color: var(--white);
+    transform: rotate(45deg);
+    text-align: center;
+}
+
+.dowload-section{
+    background-color: var(--background-color);
+    padding : 150px ;
+}
+.inner-dowload{
+    display: flex;
+    justify-content: space-between;
+    height: 290px;
+    background-color:#1D1E22 ;
+    padding: 95px 70px;
+}
+.note-display{
+    width: 550px;
+    height: 99px;
+    font-family: 'MonumentExtended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.04em;
+    color: var(--white);
+}
+.download-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 560px;
+}
+.btn-d{
+    display: flex;
+    justify-content: center;
+}
+.icon-doawload{
+    width: 25px;
+    height: 25px;
+}
+.namestore{
+    margin-left: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #1D1E22;
+}

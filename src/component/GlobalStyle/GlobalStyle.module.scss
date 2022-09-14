@@ -1,0 +1,54 @@
+@import 'normalize.css';
+
+
+:root{
+    --background-color : #101010;
+    --white : #FFFFFF;
+    --primary : #52FFE0;
+    --color-text: #2C2D31;
+    --font-family : "RedRose", 'MonumentExtended', 'sans-serif';
+    --font-family2 : 'MonumentExtended';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Font embed
+@font-face {
+    font-family: RedRose;
+    src: url('/assest/fonts/RedRose-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: RedRose;
+    src: url('/assest/fonts/RedRose-Light.ttf');
+    font-weight: 200;
+}
+@font-face {
+    font-family: RedRose;
+    src: url('/assest/fonts/RedRose-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: MonumentExtended;
+    src: url('/assest/fonts/MonumentExtended-Regular.otf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: MonumentExtended;
+    src: url('/assest/fonts/MonumentExtended-Ultrabold.otf');
+    font-weight: 700;
+}
+
+
+body {
+    font-family: var(--font-family);
+}
+
+a{
+    color: #F8F8F8;
+    text-decoration: none;
+}
